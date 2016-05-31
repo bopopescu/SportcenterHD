@@ -15,10 +15,10 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.kodispecialistiptv"
-       name="Kodispecialistiptv"
-       version="1.0.0"
-       provider-name="Kodispecialistiptv">
+<addon id="plugin.video.SportcenterHD"
+       name="SportCenterHD"
+       version="1.0.1"
+       provider-name="SportCenterHD">
   <requires>
     <import addon="script.module.beautifulsoup" />
     <import addon="script.module.simple.downloader" />
@@ -34,8 +34,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Kodi Specialist IPTV</summary>
-    <description lang="en">Wij zijn NIET de eigenaar van de streams die in Kodi Specialist IPTV zijn te vinden.
+    <summary lang="en">SportCenterHD</summary>
+    <description lang="en">Wij zijn NIET de eigenaar van de streams die in SportcenterHD zijn te vinden.
 Alle inhoud is copyright van hun respectievelijke eigenaars.</description>
     <platform>all</platform>
   </extension>
@@ -78,14 +78,14 @@ Alle inhoud is copyright van hun respectievelijke eigenaars.</description>
 	</extension>
 </addon>
 
-    <addon id="repository.TvSpecialist" name="TvSpecialist" version="1.0.0" provider-name="TvSpecialist">
+    <addon id="repository.sportcenterhd" name="SportCenterHD" version="1.0.1" provider-name="SportCenterHD">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="Tv Specialist Repository">
-            <info compressed="false">https://raw.githubusercontent.com/tvspeler/SportStreams/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/tvspeler/SportStreams/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/tvspeler/SportStreams/master/zips/</datadir>
+        <extension point="xbmc.addon.repository" name="SportCenterHD Repository">
+            <info compressed="false">https://github.com/tvspeler/SportcenterHD/raw/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tvspeler/SportcenterHD/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tvspeler/SportcenterHD/master/zips/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
